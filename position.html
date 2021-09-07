@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Position</title>
+        <style>
+            .main{
+                margin: 0 auto;
+                width: 60%;
+                height: 400px;
+                background-color: lightgrey;
+                border-color: black;
+                border-width: 2px;
+            }
+            .box{
+                display: inline-block;
+                width: 150px;
+                height: 150px;
+                background-color: yellowgreen;
+                position: relative;
+                bottom: 0;
+                right: 0;
+                margin: 10px;
+            }
+            .special_box{
+                display: inline-block;
+                width: 150px;
+                height: 150px;
+                background-color: brown;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="special_box"></div>
+            <div class="box"></div>
+        </div>
+    </body>
+</html>
